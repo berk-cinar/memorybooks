@@ -1,0 +1,122 @@
+.flex{
+  display:flex;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+  padding-top:10px;
+  border-bottom: 1px solid #000000;
+}
+
+.link {
+  display:flex;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+  padding-top:10px;
+}
+
+.justify-content-space-between{
+  justify-content: space-between;
+}
+
+.button{
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration:none;
+  padding-bottom:16.5px;
+}
+
+.button:hover{
+  border-bottom: 4.5px solid #fd6212;
+  padding-bottom: 12px;
+}
+
+.cardflex {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding:30px;
+  width: 25%;
+  margin:1%;
+  min-height: 200px;
+  box-shadow: 0px 5px 5px 0px rgb(50 50 50 / 20%);
+}
+
+.title{
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.description{
+  text-align: center;
+}
+
+.input-admin{
+  height: 35px;
+  font-size: larger;
+  width:300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.admin-card{
+  margin:10%;
+  box-shadow: 0 1px 2px rgb(0 0 0/ 20%);
+  padding:10%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.filter{
+  display:flex;
+  width:400px;
+  height:30px;
+  justify-content: center;
+  margin:10px 70%;
+  padding: 0px 10px;
+}
+
+.image {
+  background-color: #fd6212;
+  width: 100px;
+  height: 100px;
+}
+
+/* ADD-ADMINS
+ */
+
+ .card-admin {
+  box-shadow: 0 1px 2px rgb(0 0 0/ 20%);
+  margin: 5%;
+  padding:5%;
+ }
+
+ .input-admin{
+  width:100%;
+  border-radius:5px;
+  border:1px solid #BEBEBE;
+  margin-bottom:10px;
+  padding:5px 20px;
+ }
+
+ .select-admin {
+  width:30%;
+  padding:14px 20px;
+  margin:5px;
+  border:1px solid #BEBEBE;
+  border-radius: 5px;
+  margin-right: 13px;
+  background: #eee;
+ }
+
+ .submit-btn{
+  width:100px;
+  padding:12px;
+  background-color: rgb(52, 85, 85);
+  color: #eee;
+  border:none;
+  border-radius: 7px;
+  font-size: 20px;
+ }
